@@ -12,6 +12,24 @@ class TestMainFile(unittest.TestCase):
             "foo"
         )
 
+    def test_square_number(self):
+        self.assertEqual(
+            main.square_number(2),
+            4
+        )
+
+    def test_be_annoyed(self):
+        self.assertEqual(
+            main.be_annoyed(),
+            "Someone here is annoyed."
+        )
+
+    def test_be_annoyed_input(self):
+        self.assertEqual(
+            main.be_annoyed("My dog"),
+            "My dog is annoyed."
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

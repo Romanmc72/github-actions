@@ -19,11 +19,4 @@ def square_number(number: int) -> int:
 def be_annoyed(name: str = None):
     if name is None:
         name = 'Someone here'
-    print(f"{name} is annoyed.")
-
-
-if __name__ == "__main__":
-    print(always_return_foo)
-    print(square_number(2))
-    be_annoyed()
-    be_annoyed("Roman")
+    return f"{name} is annoyed."
