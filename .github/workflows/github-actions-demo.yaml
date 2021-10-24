@@ -13,7 +13,7 @@ jobs:
       - run: echo "🐍 Setting up Python."
       - uses: actions/setup-python@v2
         with:
-          python-version: '3.7.3'
+          python-version: '3.7'
       - run: echo "🐍 Installing Test Dependencies."
       - run: pip install -r test_requirements.txt
       - name: Run Linting and Unit Tests
