@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """
 Python file with some functions that need to be tested
-We should see a few errors from flake8
+We should see a few errors from flake8...
+...and we did! fixed them.
 """
 
 
@@ -19,6 +20,7 @@ def be_annoyed(name: str = None):
     if name is None:
         name = 'Someone here'
     print(f"{name} is annoyed.")
+
 
 if __name__ == "__main__":
     print(always_return_foo)

@@ -12,5 +12,6 @@ class TestMainFile(unittest.TestCase):
             "foo"
         )
 
+
 if __name__ == "__main__":
     unittest.main()
