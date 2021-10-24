@@ -1,3 +1,5 @@
+format:
+	black ./
 test:
 	flake8 \
 		--max-line-length 88 \

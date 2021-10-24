@@ -18,5 +18,5 @@ def square_number(number: int) -> int:
 
 def be_annoyed(name: str = None):
     if name is None:
-        name = 'Someone here'
+        name = "Someone here"
     return f"{name} is annoyed."
